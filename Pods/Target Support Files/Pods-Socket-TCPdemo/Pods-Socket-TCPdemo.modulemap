@@ -1,0 +1,6 @@
+framework module Pods_Socket_TCPdemo {
+  umbrella header "Pods-Socket-TCPdemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

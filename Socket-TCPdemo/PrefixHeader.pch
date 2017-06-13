@@ -1,0 +1,28 @@
+
+
+//
+//  PrefixHeader.pch
+//  Socket-TCPdemo
+//
+//  Created by doublej on 2017/6/13.
+//  Copyright © 2017年 doublej. All rights reserved.
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define Screen_Width ([UIScreen mainScreen].bounds.size.width)
+#define Screen_Height ([UIScreen mainScreen].bounds.size.height)
+
+//#define HOST @"192.168.1.108"
+#define HOST @"192.168.0.105"
+#define PORT  8008
+
+#define selfPort  4004
+
+#define recvPort  2346
+#define sendPort  6432
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
